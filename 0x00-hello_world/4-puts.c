@@ -9,8 +9,7 @@
 int main (void)
 {
 
-	puts("\"Programmingis like building a multilingualpuzzle");
+	puts("\"Programming is like building a multilingual puzzle"%/n);
 
-	retun (0)
-
+	retun (0);
 }
