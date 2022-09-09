@@ -6,10 +6,10 @@
  * REturn: Always 0 (Successful)
  */
 
-int main (void)
+int main(void)
 {
 
-	puts("\"Programming is like building a multilingual puzzle"%/n);
+	puts("\"Programming is like building a multilingual puzzle\n");
 
-	retun (0);
+	return (0);
 }
