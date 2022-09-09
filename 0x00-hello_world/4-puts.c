@@ -10,8 +10,8 @@
 {
 
 	puts("\"Programming is like building a multilingual puzzle");
-	/** 
-	 * return 0 because thats what you're supposed to do
-	 */
+/** 
+ * * return 0 because thats what you're supposed to do
+ */
 	return (0);
 }
