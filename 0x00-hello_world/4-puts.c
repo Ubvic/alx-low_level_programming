@@ -3,7 +3,7 @@
 /**
  * main - Printing
  *
- * REturn: Always 0 (Successful)
+ * Return: Always 0.
  */
 
 int main(void)/**an empty space*/
