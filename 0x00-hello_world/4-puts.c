@@ -7,9 +7,7 @@
  */
 
 int main(void)
-	/**
-	 * an empty space
-	 */
+	/**an empty space*/
 {
 
 	puts("\"Programming is like building a multilingual puzzle");
