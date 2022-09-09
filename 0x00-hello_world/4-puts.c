@@ -6,8 +6,7 @@
  * REturn: Always 0 (Successful)
  */
 
-int main(void)//
-	/**an empty space*/
+int main(void)/**an empty space*/
 {
 
 	puts("\"Programming is like building a multilingual puzzle");
