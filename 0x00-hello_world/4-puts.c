@@ -6,12 +6,18 @@
  * REturn: Always 0 (Successful)
  */
 
- int main(void)
+int main(void)
+	/**
+	 * an empty space
+	 */
 {
 
 	puts("\"Programming is like building a multilingual puzzle");
-/** 
- * * return 0 because thats what you're supposed to do
- */
+	/**
+	 * prints a reply
+	 */
 	return (0);
+	/**
+	 * i'm good now
+	 */
 }
