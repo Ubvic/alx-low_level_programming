@@ -6,7 +6,7 @@
  * REturn: Always 0 (Successful)
  */
 
-int main(void)
+int main(void)//
 	/**an empty space*/
 {
 
