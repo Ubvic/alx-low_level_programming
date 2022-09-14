@@ -3,11 +3,11 @@
 /**main - prints putchar
  *
  * return - always 0.
- */
+*/
 
-int main(void) /*prints putchar on the screen*/
-
+int main(void)
 {
+	/*prints putchar on the screen*/
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -18,5 +18,5 @@ int main(void) /*prints putchar on the screen*/
 	_putchar('r');
 	_putchar('\n');
 
-	return (0); /*returns 0 */
+	return (0); /* returns 0 */
 }
