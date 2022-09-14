@@ -1,19 +1,23 @@
 #include "main.h"
 /**
- * _abs - gives the positive values of numbers
- * Return: positive numbers
- */
-
-int _abs(int)
+* _abs - function to get the absolute value
+*
+* @n: parameter of the funtion
+*
+* Return: the absolute value
+*/
+int _abs(int n)
 {
-	int i;
-
-	if (i >= 0)
+	if (n > 0)
 	{
-		return (i);
+		return (n);
+	}
+	else if (n == 0)
+	{
+		return (0);
 	}
 	else
 	{
-		return (-i);
+		return (-n);
 	}
 }
