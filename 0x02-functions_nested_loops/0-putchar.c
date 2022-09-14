@@ -5,8 +5,7 @@
  * return - always 0.
  */
 
-int main()
-	/*prints putchar on the screen*/
+int main(void) /*prints putchar on the screen*/
 
 {
 	_putchar('_');
