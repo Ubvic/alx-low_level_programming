@@ -1,40 +1,36 @@
-#include <time.h>
-
+#include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * * main - entry point
+ * *
+ * * Return: alway returns 0
+ * *
  */
-
 int main(void)
 {
-	int d, p, q;
+	int i;
+	int j;
+	int k;
 
-	for (d = '0'; d < '9'; d++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (p = d + 1; p <= '9'; p++)
+		for (j = 0; j <= 9; j++)
 		{
-			for (q = p + 1; q <= '9'; q++)
+			for (k = 0; k <= 9; k++)
 			{
-				if ((p != d) != q)
+				if (k > j && j > i)
 				{
-					putchar(d);
-					putchar(p);
-					putchar(q);
-
-					if (d == '7' && p == '8')
-						continue;
-
-					putchar(',');
-					putchar(' ');
+					putchar(i + '0');
+					putchar(j + '0');
+					putchar(k + '0');
+					if (i != 7 || j != 8 || k != 9)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
 	}
 	putchar('\n');
-	
 	return (0);
-
 }
-
-	
