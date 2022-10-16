@@ -1,5 +1,4 @@
 #include <stdarg.h>
-
 /**
 *sum_them_all - sums all its parameters
 *@n: first parameter
